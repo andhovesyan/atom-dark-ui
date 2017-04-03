@@ -4,8 +4,22 @@
   "version": "0.0.1",
   "description": "Atom Flex Monokai Theme",
   "license": "MIT",
-  "repository": "https://github.com/atom/atom-dark-ui",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andhovesyan/atom-monokai-flex-ui.git"
+  },
   "engines": {
     "atom": ">0.40.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/andhovesyan/atom-monokai-flex-ui/issues"
+  },
+  "homepage": "https://github.com/andhovesyan/atom-monokai-flex-ui#readme",
+  "keywords": [
+    "atom",
+    "monokai",
+    "flex",
+    "theme"
+  ],
+  "author": "Andranik Hovesyan <andranik@hovesyan.pro>"
 }
