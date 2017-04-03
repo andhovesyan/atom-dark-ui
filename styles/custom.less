@@ -1,0 +1,58 @@
+.welcome {
+  background-color: @input-background-color;
+}
+
+atom-text-editor.editor {
+  .cursor-line {
+    background: #49483e;
+  }
+  .invisible-character {
+    color: @input-background-color;
+  }
+
+  .invisible-character.eol {
+    color: transparent;
+  }
+
+  .cursor-line .invisible-character {
+    color: transparent;
+  }
+
+  .invisible-character.indent-guide {
+    box-shadow: none;
+    border-left: dotted 1px #3E3F39;
+    height: 1.5em;
+    &:first-child {
+      border: none;
+    }
+  }
+}
+
+.project-root-header {
+  background: #363731;
+  height: 40px;
+  line-height: 40px!important;
+  margin-left: -5px;
+  margin-right: -10px;
+  margin-bottom: 5px;
+  padding: 0 0 0 0;
+  &::before {
+    top: 0;
+    right: 0;
+    left: unset!important;
+    position: absolute!important;
+    height: 40px!important;
+    line-height: 40px!important;
+    text-align: center;
+    width: 40px!important;
+    display: block!important;
+  }
+  .icon-repo::before {
+    float: left;
+    height: 40px!important;
+    line-height: 40px!important;
+    text-align: center;
+    width: 40px!important;
+    display: block!important;
+  }
+}
