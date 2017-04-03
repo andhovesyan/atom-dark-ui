@@ -1,3 +1,3 @@
 # Atom Boxy Monokai UI theme
 
-A dark UI theme for Atom.
+![alt tag](https://raw.githubusercontent.com/andhovesyan/atom-monokai-flex-ui/master/screenshot.png)
